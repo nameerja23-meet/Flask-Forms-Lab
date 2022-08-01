@@ -13,7 +13,7 @@
 
 <ul id="myUL">
   {%for friend in friends%}
-    <li><a href="/friend_exists/{{friend}}">{{friend}}</a></li>
+    <li><a href="url_for('friendExists', friend ={{friend}})">{{friend}}</a></li>
   {%endfor%}
 </ul>
 
